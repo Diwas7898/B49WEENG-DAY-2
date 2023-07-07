@@ -1,0 +1,29 @@
+Difference Between the document and window object 
+
+In JS, the 'document' and 'window' objects are important objects that are part of  the 
+Document Object Model(DOM) API, however the 'document' and 'window' represent different aspect of a web page.
+
+1. 'documen't - Object Model
+- The document object representing the HTML document itself. 
+- it provides the methods that and properties of interact with the content and structure of the document.
+- it is accessed through the 'document' global variable.
+- some example; 'document' object methods and properties are available; 
+'querySelector', 'getElementById', getElementbyClassName, 'title', and so on.
+- it too help user to manuplate the document's structure, content, and styles, such as
+adding, modyfing, or removing elements, change text, applying CSS styles and so on.
+
+
+2. 'window' - Object Model
+- It represents the browser window or tab that contains the web page.
+- it serves as the global object in the browser environment and provides the methods access to various properties of the
+, methods, and events related to the window.
+- it is the top level object in the browser's JS hierarchy.
+- some example; 'window' object methods and properties are available are; 'alert', 'confim',
+'history','location' and so on.
+- it too help user to control the behavior of the window, interact with browers's navigation, 
+handle events and muhc more. 
+
+In a nutsell; 
+the 'documen' object focuses on the content and structure of the HTML document, allowing to manipulate and  access elements within itself. 
+On the other hand, the 'window' object represents the broswer window and provides broader
+functionality ad control over the entire browsing window.
